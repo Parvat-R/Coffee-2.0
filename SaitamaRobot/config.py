@@ -3,21 +3,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Sawada"
-    SUPPORT_CHAT = "OnePunchSupport"  # Your own group for support, do not add the @
+    API_ID = 1842427  # integer value, dont use ""
+    API_HASH = "eb8bfaf26cd3ef11991b7768d1533ed0"
+    TOKEN = "1741323461:AAHRalpVlkEEkG-Y_GgGzivxrpxY4sfFzdo"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1194553296  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "ShrayanshSharma"
+    SUPPORT_CHAT = "Coffee_Support"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001253661229
+        -1001234328262
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001190806654
+        -1001234328262
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://Coffee:#mrinalini1968@database-1.csi6xvs8jxsy.us-east-2.rds.amazonaws.com:5432/dbname"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
